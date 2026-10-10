@@ -89,7 +89,7 @@ Remove-Item -Recurse -Force android
 
 ```
 
-5. **Recriar a pasta android com o Flutter**
+5. **Recriar a pasta `android` com o Flutter**
 
 ```bash
 flutter create --platforms=android .
