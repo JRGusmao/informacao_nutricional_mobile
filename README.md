@@ -84,17 +84,17 @@ flutter pub get
 
 4. **Apagar a pasta com o cache do android**
 
-'''bash
+```bash
 Remove-Item -Recurse -Force android
 
-'''
+```
 
 5. **Recriar a pasta android com o Flutter**
 
-'''bash
+```bash
 flutter create --platforms=android .
 
-'''
+```
 
 6. **Executar a aplicação:**
 
