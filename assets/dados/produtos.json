@@ -1,0 +1,243 @@
+[
+  {
+    "id": "1",
+    "nome": "Maçã Fuji",
+    "imagem": "assets/imagens/maca.png",
+    "descricao": "Fruta rica em fibras e antioxidantes.",
+    "curtidas": 12,
+    "estaCurtido": false,
+    "informacaoNutricional": {
+      "calorias": 52.0,
+      "carboidratos": 14.0,
+      "proteinas": 0.3,
+      "gorduras": 0.2,
+      "fibras": 2.4,
+      "sodio": 1.0,
+      "vitaminas": {
+        "Vitamina C": "8.4 mg"
+      }
+    },
+    "receitas": [
+      {
+        "titulo": "Suco Natural de Maçã e Canela",
+        "tempoPreparo": "10 min",
+        "ingredientes": ["2 Maçãs Fuji", "200ml de Água", "1 pitada de Canela"],
+        "instrucoes": [
+          "Lave as maçãs",
+          "Bata tudo no liquidificador",
+          "Sirva gelado."
+        ]
+      }
+    ],
+    "comentarios": [
+      {
+        "id": "c1",
+        "nomeUsuario": "João Pedro",
+        "conteudo": "Excelente fonte de energia para o pré-treino!",
+        "criadoEm": "2026-03-29T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "nome": "Banana Prata",
+    "imagem": "assets/imagens/banana_prata.png",
+    "descricao": "Ótima fonte de potássio e energia rápida.",
+    "curtidas": 25,
+    "estaCurtido": false,
+    "informacaoNutricional": {
+      "calorias": 89.0,
+      "carboidratos": 22.8,
+      "proteinas": 1.1,
+      "gorduras": 0.3,
+      "fibras": 2.6,
+      "sodio": 1.0,
+      "vitaminas": {
+        "Vitamina B6": "0.4 mg",
+        "Potássio": "358 mg"
+      }
+    },
+    "receitas": [
+      {
+        "titulo": "Vitamina de Banana com Aveia",
+        "tempoPreparo": "5 min",
+        "ingredientes": [
+          "2 Bananas Prata",
+          "250ml de Leite",
+          "2 colheres de Aveia"
+        ],
+        "instrucoes": [
+          "Descasque as bananas",
+          "Bata tudo no liquidificador por 2 minutos",
+          "Sirva imediatamente."
+        ]
+      }
+    ],
+    "comentarios": []
+  },
+  {
+    "id": "3",
+    "nome": "Abacate",
+    "imagem": "assets/imagens/abacate.png",
+    "descricao": "Rico em gorduras saudáveis (monoinsaturadas), auxilia no controle do colesterol e promove saciedade.",
+    "curtidas": 18,
+    "estaCurtido": false,
+    "informacaoNutricional": {
+      "calorias": 160.0,
+      "carboidratos": 8.5,
+      "proteinas": 2.0,
+      "gorduras": 14.7,
+      "fibras": 6.7,
+      "sodio": 7.0,
+      "vitaminas": {
+        "Vitamina E": "2.07 mg",
+        "Potássio": "485 mg"
+      }
+    },
+    "receitas": [
+      {
+        "titulo": "Guacamole Simples",
+        "tempoPreparo": "15 min",
+        "ingredientes": [
+          "1 Abacate maduro",
+          "1 Tomate picado sem sementes",
+          "1/2 Cebola roxa picada",
+          "Suco de 1 Limão",
+          "Azeite, sal e coentro a gosto"
+        ],
+        "instrucoes": [
+          "Amasse o abacate com um garfo numa tigela",
+          "Adicione a cebola, o tomate e o coentro",
+          "Tempere com o suco de limão, azeite e sal a gosto",
+          "Misture bem e sirva com torradas ou chips."
+        ]
+      }
+    ],
+    "comentarios": [
+      {
+        "id": "c2",
+        "nomeUsuario": "Camila Rocha",
+        "conteudo": "Adoro comer com ovos mexidos no café da manhã!",
+        "criadoEm": "2026-03-30T08:30:00Z"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "nome": "Morango",
+    "imagem": "assets/imagens/morango.png",
+    "descricao": "Fruta de baixo teor calórico, extremamente rica em Vitamina C e compostos anti-inflamatórios.",
+    "curtidas": 30,
+    "estaCurtido": false,
+    "informacaoNutricional": {
+      "calorias": 32.0,
+      "carboidratos": 7.7,
+      "proteinas": 0.7,
+      "gorduras": 0.3,
+      "fibras": 2.0,
+      "sodio": 1.0,
+      "vitaminas": {
+        "Vitamina C": "58.8 mg"
+      }
+    },
+    "receitas": [
+      {
+        "titulo": "Smoothie Refrescante de Morango com Iogurte",
+        "tempoPreparo": "5 min",
+        "ingredientes": [
+          "1 xícara de Morangos congelados",
+          "1 copo (170g) de Iogurte natural",
+          "1 colher de mel (opcional)"
+        ],
+        "instrucoes": [
+          "Coloque todos os ingredientes no liquidificador",
+          "Bata até ficar homogêneo e cremoso",
+          "Sirva em seguida em um copo bem gelado."
+        ]
+      }
+    ],
+    "comentarios": []
+  },
+  {
+    "id": "5",
+    "nome": "Laranja Pera",
+    "imagem": "assets/imagens/laranja.png",
+    "descricao": "Famosa pela alta concentração de Vitamina C, fortalece o sistema imunológico e melhora a absorção de ferro.",
+    "curtidas": 15,
+    "estaCurtido": false,
+    "informacaoNutricional": {
+      "calorias": 47.0,
+      "carboidratos": 11.8,
+      "proteinas": 0.9,
+      "gorduras": 0.1,
+      "fibras": 2.4,
+      "sodio": 0.0,
+      "vitaminas": {
+        "Vitamina C": "53.2 mg"
+      }
+    },
+    "receitas": [
+      {
+        "titulo": "Suco Detox de Laranja e Couve",
+        "tempoPreparo": "8 min",
+        "ingredientes": [
+          "Suco de 2 Laranjas",
+          "1 folha de Couve manteiga",
+          "1/2 rodela de Gengibre",
+          "150ml de Água"
+        ],
+        "instrucoes": [
+          "Bata todos os ingredientes no liquidificador",
+          "Bata bem para triturar a couve e o gengibre",
+          "Sirva sem coar para manter as fibras."
+        ]
+      }
+    ],
+    "comentarios": []
+  },
+  {
+    "id": "6",
+    "nome": "Aveia em Flocos",
+    "imagem": "assets/imagens/aveia.png",
+    "descricao": "Cereal integral rico em betaglucana, uma fibra solúvel que reduz o colesterol e melhora a digestão.",
+    "curtidas": 20,
+    "estaCurtido": false,
+    "informacaoNutricional": {
+      "calorias": 389.0,
+      "carboidratos": 66.3,
+      "proteinas": 16.9,
+      "gorduras": 6.9,
+      "fibras": 10.6,
+      "sodio": 2.0,
+      "vitaminas": {
+        "Ferro": "4.7 mg",
+        "Magnésio": "177 mg"
+      }
+    },
+    "receitas": [
+      {
+        "titulo": "Mingau de Aveia Cremoso",
+        "tempoPreparo": "10 min",
+        "ingredientes": [
+          "4 colheres de sopa de Aveia em Flocos",
+          "200ml de Leite",
+          "1 colher de chá de Canela em pó",
+          "Mel ou adoçante a gosto"
+        ],
+        "instrucoes": [
+          "Em uma panela, misture a aveia e o leite",
+          "Cozinhe em fogo baixo mexendo sempre até engrossar",
+          "Sirva em uma tigela, polvilhe a canela e adoce como preferir."
+        ]
+      }
+    ],
+    "comentarios": [
+      {
+        "id": "c3",
+        "nomeUsuario": "Lucas Mendes",
+        "conteudo": "Essencial no meu café da manhã todos os dias!",
+        "criadoEm": "2026-03-31T07:15:00Z"
+      }
+    ]
+  }
+]
