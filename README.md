@@ -2,11 +2,11 @@
 
 O **Informação Nutricional** é uma aplicação desenvolvida em Flutter que faz parte do módulo de nutrição (`nutricao/informacao_nutricional`). O seu objetivo principal é disponibilizar dados sobre alimentos, tabelas nutricionais e suporte ao acompanhamento de dietas e hábitos saudáveis.
 
-**Desenvolvido por João Ricardo Gusmão**
+Desenvolvido por João Ricardo Gusmão
 
-**Disciplina: Programação Movél**
+**Disciplina:** Programação Movél
 
-**Semestre: 2026.2**
+**Semestre:** 2026.2
 
 ## 🚀 Funcionalidades
 
@@ -35,10 +35,11 @@ nutricao/
     ├── .dart_tool/              # Ferramentas e configurações de compilação do Dart/Flutter
     ├── android/                 # Ficheiros nativos da plataforma Android
     ├── ios/                     # Ficheiros nativos da plataforma iOS
+    ├── assets/                  # Ficheiros com os assests do projeto
     ├── lib/                     # Código-fonte principal da aplicação (Dart)
     │   ├── main.dart            # Ponto de entrada da aplicação
     │   ├── models/              # Modelos de dados nutricionais
-    │   ├── screens/             # Ecrãs e interface do utilizador
+    │   ├── screens/             # Telas e interface do utilizador
     │   └── services/            # Serviços de integração e consumo de dados
     ├── web/                     # Configurações para execução em ambiente Web
     └── pubspec.yaml             # Configuração de dependências do Flutter
@@ -81,7 +82,21 @@ flutter pub get
 
 ```
 
-4. **Executar a aplicação:**
+4. **Apagar a pasta com o cache do android**
+
+'''bash
+Remove-Item -Recurse -Force android
+
+'''
+
+5. **Recriar a pasta android com o Flutter**
+
+'''bash
+flutter create --platforms=android .
+
+'''
+
+6. **Executar a aplicação:**
 
 - _Em dispositivo móvel (Emulador ou Físico):_
 
