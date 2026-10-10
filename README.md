@@ -1,12 +1,12 @@
-# Desenvolvido por João Ricardo Gusmão
-
-# Disciplina: Programação Movél
-
-# Semestre: 2026.2
-
 # Informação Nutricional 🥗
 
 O **Informação Nutricional** é uma aplicação desenvolvida em Flutter que faz parte do módulo de nutrição (`nutricao/informacao_nutricional`). O seu objetivo principal é disponibilizar dados sobre alimentos, tabelas nutricionais e suporte ao acompanhamento de dietas e hábitos saudáveis.
+
+**Desenvolvido por João Ricardo Gusmão**
+
+**Disciplina: Programação Movél**
+
+**Semestre: 2026.2**
 
 ## 🚀 Funcionalidades
 
