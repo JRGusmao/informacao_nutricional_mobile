@@ -1,6 +1,6 @@
 # Informação Nutricional 🥗
 
-O **Informação Nutricional** é uma aplicação desenvolvida em Flutter que faz parte do módulo de nutrição (`nutricao/informacao_nutricional`). O seu objetivo principal é disponibilizar dados sobre alimentos, tabelas nutricionais e suporte ao acompanhamento de dietas e hábitos saudáveis.
+O **Informação Nutricional** é uma aplicação desenvolvida em Flutter que faz parte do módulo de nutrição (`nutricao/informacao_nutricional`). O seu objetivo principal é disponibilizar dados sobre alimentos, tabelas nutricionais e hábitos saudáveis.
 
 Desenvolvido por João Ricardo Gusmão
 
@@ -38,9 +38,10 @@ nutricao/
     ├── assets/                  # Ficheiros com os assests do projeto
     ├── lib/                     # Código-fonte principal da aplicação (Dart)
     │   ├── main.dart            # Ponto de entrada da aplicação
-    │   ├── models/              # Modelos de dados nutricionais
-    │   ├── screens/             # Telas e interface do utilizador
-    │   └── services/            # Serviços de integração e consumo de dados
+    |   ├── controlador/         # Controlador de entrada para comentarios
+    │   ├── modelos/             # Modelos de dados nutricionais
+    │   ├── telas/               # Telas e interface do utilizador
+    │   └── servicos/            # Serviços de integração e consumo de dados
     ├── web/                     # Configurações para execução em ambiente Web
     └── pubspec.yaml             # Configuração de dependências do Flutter
 
